@@ -1,0 +1,46 @@
+#gridContainer>nav#menu {
+	position: fixed;
+	left: 0;
+	right: 0;
+	padding: 4px;
+}
+#gridContainer>nav#menu>ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+#gridContainer>nav#menu>ul>li {
+	display: inline-block;
+}
+#gridContainer>nav#menu>ul>li>a {
+	display: block;
+
+	background-color: #009688;
+	color: white;
+
+	padding: 8px;
+	margin: 4px;
+}
+#gridContainer>nav#menu {
+  height: 50px;
+  display: none;
+}
+	
+div#menuMobile {
+	position: fixed;
+}
+div#menuMobile>nav#collapsableMenu {
+	display: none;
+	background-color: #fff;
+	border: 1px solid #000;
+	position: fixed;
+	
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+div#menuMobile>nav#collapsableMenu:target {
+	display: block;
+}

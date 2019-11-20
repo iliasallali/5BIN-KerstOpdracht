@@ -6,12 +6,31 @@ body{
     margin:0 ;
   }
 *:not(footer){
-    background-color: #D2691E ;
+    background-color: #e8ab02 ;
 }
-img {
+.foto>img{
     float: right;
+    box-shadow: 15px 10px 5px #808080;  
 }
-    
+.fototekst>img{
+    float: right;
+    box-shadow: 15px 10px 5px #808080;  
+
+}    
+#gridContainer {
+    display: grid;
+    grid-template-columns: ;
+    grid-template-rows:  auto auto ;
+    grid-template-rows:  auto auto ;
+
+    grid-template-areas:                    "menu    menu"
+                                             "menu menu"
+                                             "foto foto"
+                                             "foto foto"
+                                             "fototekst fototekst"
+                                             "contact  contact";
+    grid-gap: 16px;
+}
 #header{
     color:#FFD700	;
     padding: 0px 0px 0px 40px;
@@ -62,13 +81,11 @@ section>header>h3{
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 }
-div>img{
+#foto>img{
     width: 100%;
     margin: 0px 0px 10px 0px;
 }
-#fototekst{
-    float: left;
-}
+
 div.foto {
     margin: 5px;
     border: 1px solid #ccc;
@@ -79,7 +96,7 @@ div.foto {
 div.foto:hover {
     border: 1px solid #777;
 }
-.foto img {
+.foto>img {
     width: 100%;
     height: auto;
 }
@@ -111,7 +128,8 @@ div.gerecht {
     border: 1px solid black;
 }
 .footer{
-    width: 100%;
+    grid-area: contact;
+    width: auto;
     background-color:grey;
     padding: 60px 0px 60px 60px;
     color: white;
@@ -122,4 +140,11 @@ div.gerecht {
 #contact>img{
     width: 10%;
     margin: 0px 0px 10px 0px;
+}
+#fototekst{
+    float: left;
+    box-shadow: #777;
+}
+#fototekst>img{
+    width: 10%;
 }

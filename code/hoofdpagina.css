@@ -1,3 +1,4 @@
+<<<<<<< HEAD:code/hoofdpagina.css
 *{
     box-sizing: border-box;
     font-family:Arial, Helvetica, sans-serif;
@@ -161,3 +162,155 @@ footer{
 }
 
 
+=======
+*{
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    margin:0 ;
+  }
+*:not(footer){
+    background-color: #e8ab02 ;
+}
+.foto>img{
+    float: right;
+    box-shadow: 15px 10px 5px #808080;  
+}
+.fototekst>img{
+    float: right;
+    box-shadow: 15px 10px 5px #808080;  
+
+}    
+#gridContainer {
+    display: grid;
+    grid-template-columns: ;
+    grid-template-rows:  auto auto ;
+    grid-template-rows:  auto auto ;
+
+    grid-template-areas:                    "menu    menu"
+                                             "menu menu"
+                                             "foto foto"
+                                             "foto foto"
+                                             "fototekst fototekst"
+                                             "contact  contact";
+    grid-gap: 16px;
+}
+#header{
+    color:#FFD700	;
+    padding: 0px 0px 0px 40px;
+    line-height: 0.2;
+}
+section>header>h3{
+    color: black;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+#gridContainer>footer{
+    height: 100px;
+
+}
+.container {
+    position: relative;
+    width: 100%;
+}
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.overlay {
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    left: 10%;
+    right: 10%;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .75s ease-in-out;
+    background-color: blueviolet;
+}
+.container:hover.overlay {
+    opacity: 1;
+}
+.text {
+    color: red;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    bottom: 10%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+#foto>img{
+    width: 100%;
+    margin: 0px 0px 10px 0px;
+}
+
+div.foto {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 33,33%;
+}
+
+div.foto:hover {
+    border: 1px solid #777;
+}
+.foto>img {
+    width: 100%;
+    height: auto;
+}
+
+div.gerecht {
+    padding: 15px;
+    text-align: center;
+} 
+#gridContainer>nav#menu{
+    display: none;
+    height:50px;
+}  
+#menuMOBILE{
+    position: fixed; 
+}
+#menuMOBILE>nav#opendichtMenu{
+    display: none;
+}
+#menuMOBILE>nav#opendichtMenu:target{
+    display: block;
+    position: fixed;
+
+    top: 0
+    bottom: 0;
+    left:0;
+    right:0;
+
+    background-color: #ffffff;
+    border: 1px solid black;
+}
+.footer{
+    grid-area: contact;
+    width: auto;
+    background-color:grey;
+    padding: 60px 0px 60px 60px;
+    color: white;
+}
+#contact{
+    text-align: justify;
+}
+#contact>img{
+    width: 10%;
+    margin: 0px 0px 10px 0px;
+}
+#fototekst{
+    float: left;
+    box-shadow: #777;
+}
+#fototekst>img{
+    width: 10%;
+}
+>>>>>>> a5788c7675bd01eaecda8a5513dfa8fe787e3d13:hoofdpagina.css

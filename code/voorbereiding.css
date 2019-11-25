@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #e8ab02 ;
+}
+body{
+    margin:2px ;
+  }
+#gridContainer {
+    display: grid;
+    grid-template-columns: ;
+    grid-template-rows:  auto auto ;
+    grid-template-rows:  auto auto ;
+
+    grid-template-areas:   
+                                            "menu menu"
+                                             "voorbereiding voorbereiding"
+                                             "voorbereiding voorbereiding"
+                                             "contact  contact";
+    grid-gap: 16px;
+}
+/-------------------header---------------------/
+#zafraan{
+    color:#FFD700	;
+    padding: 0px 0px 0px 40px;
+    line-height: 1.2;
+}
+#antwerpen{
+    color: black;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+/----------------------------voorbereiding----------------/
+.voorbereiding{
+    padding-right: 10px;
+    grid-area: voorbereiding;
+}
+img {
+    float: left;
+    box-shadow: 15px 10px 5px #808080;
+    width: 50%;
+}
+#tekst{
+    width: 40%;
+    float: right;
+    text-align: justify;
+    text-justify: inter-word;
+}
+/------------------------------footer---------------------/
+.footer {
+    grid-area: footer;
+    width: 33%;
+    display: inline-block;
+}
+.footer>img{
+    width: 10%;
+    margin: 1px 1px 1px 1px;
+}
+/--------------------------menu----------------------/
+
+#menuMOBILE{
+    position: fixed; 
+}
+#menuMOBILE>nav#opendichtMenu{
+    display: none;
+}
+#menuMOBILE>nav#opendichtMenu:target{
+    display: block;
+    position: fixed;
+
+    top: 0
+    bottom: 0;
+    left:0;
+    right:0;
+
+    background-color: #ffffff;
+    border: 1px solid black;
+}
+@media only screen and (max-width: 600px) {
+    body{
+        margin:2px ;
+      }
+    #gridContainer {
+        display: grid;
+        grid-template-columns:auto ;
+        grid-template-rows:  auto  ;
+    
+        grid-template-areas:   
+                                                "menu "
+                                                 "voorbereiding "
+                                                 "voorbereiding "
+                                                 "contact  ";
+        grid-gap: 16px;
+    }
+    .voorbereiding{
+        padding-right: 10px;
+        grid-area: voorbereiding;
+    }
+    img {
+        width: 100%;
+    }
+    #tekst{
+        width: 100%;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+}

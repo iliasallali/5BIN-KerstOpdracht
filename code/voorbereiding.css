@@ -48,6 +48,8 @@ img {
     float: right;
     text-align: justify;
     text-justify: inter-word;
+    padding: 40px 40px 40px 40px;
+    margin: 20px 20px 20px 20px;
 }
 /------------------------------footer---------------------/
 .footer {

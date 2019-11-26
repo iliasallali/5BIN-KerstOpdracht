@@ -148,9 +148,7 @@ text-align: center
 .gerechten{
     line-height: 1.7;
 }
-section>.foto{
-  float: center;
-}
+
  div.GerechtenInfo{
     text-align:center
 }
@@ -159,5 +157,12 @@ h4{
 }
 p.grijzeTekst{
   text-align: center
+}
+section>.foto{
+  float: center;
+}
+img{
+  float: center
+  
 }
   

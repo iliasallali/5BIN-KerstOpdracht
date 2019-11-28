@@ -14,7 +14,7 @@ body{
     grid-template-areas:             
                                              "menu menu"
                                              "foto foto"
-                                             "footer footer";
+                                             "footer footer ";
     grid-gap: 16px;
 }
 /--------------------------header----------------------/
@@ -107,7 +107,6 @@ text-align: center
   padding-left: 1px;
   margin-bottom: 1px 
 }
-
 /------------------------menu-------------------/
 .MenuRechts{  
     display: inline;  
@@ -119,39 +118,37 @@ text-align: center
     position: fixed;
 }
 #menuus{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #FFF;
-      position: fixed;
-
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFF;
+    position: fixed;
 }
 .menuus>ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  position: fixed;
-  width: 100%;
-
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
 }
 .menuus>li {
-  float: right;
-      position: fixed;
+    float: right;
+    position: fixed;
 
 }
 .menuus>li>a {
-  display: inline;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-      position: fixed;
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    position: fixed;
 
 }
 li>a:hover:not(.active) {
-  background-color: black;
+    background-color: black;
 
 }
 .menuus>#links{
@@ -159,20 +156,24 @@ li>a:hover:not(.active) {
 
 }
 a.MenuRechts{
-  float: right;
-  padding-left: 10px;
-  padding-top: 5px;
-  padding-right: 37px;
-  list-style-type: none;
-
+    float: right;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 37px;
+    list-style-type: none;
 }
 ul#Links{
-  width: 100%;
-  height: 20%;
+    width: 100%;
+    height: 20%;
 }
 h2{
-  padding-left: 10px;
+    padding-left: 10px;
 }
+nav#Menu{
+  height: 100px;
+  width: 100%;
+}
+
 @media only screen and (max-width: 600px) {
   /---------------header----------/
 .header{

@@ -101,7 +101,14 @@ a>i{
     text-decoration: none;
 }
 ----------------------------gerechten---------/
-.foto{
+#gridpops{
+      display: grid;
+    grid-template-columns:  auto auto;
+    grid-template-rows:  auto auto;
+    grid-template-areas: "gerechtentnawies fotogerechten"
+                                ;
+}
+img{
     float: right;
   
 }

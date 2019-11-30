@@ -81,10 +81,6 @@ text-align: center
     text-decoration: none;
     position: fixed;
 }
-li>a:hover:not(.active) {
-    background-color: black;
-
-}
 .menuus>#links{
     float: left;
     color: white
@@ -92,7 +88,7 @@ li>a:hover:not(.active) {
 a.MenuRechts{
     float: right;
     color: goldenrod;
-    margin: -80px 0px 58px 100px;
+    margin: -62px 0px 58px 100px;
     padding: 5px 20px 0px 25px;
 
 }

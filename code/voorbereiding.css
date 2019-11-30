@@ -8,16 +8,13 @@ body{
   }
 #gridContainer {
     display: grid;
-    grid-template-columns: ;
-    grid-template-rows:  auto auto ;
+    grid-template-columns: auto auto;
     grid-template-rows:  auto auto ;
 
     grid-template-areas:   
                                             "menu menu"
                                              "voorbereiding voorbereiding"
-                                             "voorbereiding voorbereiding"
                                              "contact  contact";
-    grid-gap: 16px;
 }
 /-------------------header---------------------/
   .header{
@@ -37,12 +34,13 @@ i{
     grid-area: voorbereiding;
 }
 img {
-    box-shadow: 15px 10px 5px #808080;
-    width: 100%;
+    width: 10%;
+    padding-left: 10px;
+
 }
 #tekst{
     width: 40%;
-    float: right;
+    float: left;
     text-align: justify;
     text-justify: inter-word;
     padding: 40px 40px 40px 40px;
@@ -109,6 +107,7 @@ nav#Menu{
     text-decoration: none;
     position: fixed;
     width: 100%;
+  grid-area: menu;
 }
 div.footer{
     color: white;

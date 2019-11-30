@@ -43,52 +43,14 @@ div.fototekst>p{
     margin: 0px 0px 10px 0px;
 }
 /-------------------grops-----------------------/
-
-.container {
-    position: relative;
-    width: 100%;
-}
 .image {
     display: block;
     width: 100%;
-    height: auto;
-
 }
 .aboutMe>img{
       padding: 120px 0px 0px 10px;
       width: 100%;
-
-
 }
-.overlay {
-    position: absolute;
-    top: 10%;
-    bottom: 10%;
-    left: 10%;
-    right: 10%;
-    height: 100%;
-    width: 90%;
-    opacity: 0;
-    transition: .75s ease-in-out;
-    background-color: red;
-}
-.container:hover.overlay {
-    opacity: 1;
-}
-.text {
-    color: red;
-    font-size: 50px;
-    position: absolute;
-    top: 50%;
-    left: 20%;
-    bottom: 10%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-}
-div.foto:hover {
-    border: 1px solid #777;
-}
-
 div.gerecht {
     padding: 15px;
     text-align: center;
@@ -242,10 +204,6 @@ img {
     padding: 14px 16px;
     text-decoration: none;
     position: fixed;
-}
-li>a:hover:not(.active) {
-    background-color: black;
-
 }
 .menuus>#links{
     float: left;

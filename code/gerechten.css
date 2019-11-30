@@ -199,17 +199,12 @@ img{
     float: right;
     position: fixed;
 }
-.menuus>li>a {
+.menuus>li>a{
     display: inline;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    position: fixed;
-}
-li>a:hover:not(.active) {
-    background-color: black;
-
 }
 .menuus>#links{
     float: left;
@@ -217,10 +212,9 @@ li>a:hover:not(.active) {
 }
 a.MenuRechts{
     float: right;
-    margin: 0px;
+    color: red;
+    margin: 10px 0px 0px 0px;
     padding: 5px 37px 0px 10px;
-    list-style-type: none;
-    color: red
 }
 ul#Links{
     width: 100%;
@@ -246,6 +240,10 @@ nav#Menu{
     padding: 5px;
     float: right;
     text-decoration: none;
-    position: fixed;
+}
+ul#links{
+  position: fixed;
+  margin: 5px;
+  padding:5px;
 }
 }

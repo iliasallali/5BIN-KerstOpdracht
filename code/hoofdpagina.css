@@ -1,21 +1,28 @@
 *{
     box-sizing: border-box;
     font-family:Arial, Helvetica, sans-serif;
-    background-color: black ;
-  margin-bottom: 20px;
+    background-color: #000 ;
+    margin-bottom: 20px;
 }
 body{
     margin:2px ;
-  }
+}
 #gridContainer {
     display: grid;
     grid-template-columns: auto auto;
-    grid-template-rows:  auto auto auto;
+    grid-template-rows:  auto auto;
     grid-template-areas:             
                                              "menu menu"
                                              "foto foto"
                                              "footer footer ";
     grid-gap: 16px;
+}
+h1 , h2 , h3 , h3, h4 , h5 , h6{
+    font-family: "Times New Roman", Times, serif;
+}
+h3{
+    letter-spacing: 2px;
+    font-weight:700;
 }
 /--------------------------header----------------------/
 #header{
@@ -23,13 +30,13 @@ body{
     line-height: 1.2;
 }
 b{
-  color: gold;
+    color:#FFDF00;
 }
 i{
-    color: white;
+    color:#fff;
 }
 div.fototekst>p{
-  color: red;
+    color:#fff;
 }
 /----------------------------foto--------------------/
 .foto{
@@ -48,26 +55,26 @@ div.fototekst>p{
     width: 100%;
 }
 .aboutMe>img{
-      padding: 120px 0px 0px 10px;
-      width: 100%;
+    padding: 120px 0px 0px 10px;
+    width: 100%;
 }
 div.gerecht {
     padding: 15px;
     text-align: center;
 } 
-
 /------------------------------footer-----------------/
-  .footer{
+.footer{
     margin: 25px;
-    padding: 20px
+    padding: 20px;
   }
-  footer{
-text-align: center
+footer{
+    text-align: center;
 }
  ul{
-  padding-left: 1px;
-  margin-bottom: 1px 
+    padding-left: 1px;
+    margin-bottom: 1px ;
 }
+
 /------------------------menu-------------------/
 .menuus>li {
     float: right;
@@ -75,7 +82,7 @@ text-align: center
 }
 .menuus>li>a {
     display: inline;
-    color: white;
+    color: #fff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -83,27 +90,25 @@ text-align: center
 }
 .menuus>#links{
     float: left;
-    color: white
+    color: #fff;
 }
 a.MenuRechts{
     float: right;
-    color: goldenrod;
+    color: #daa520;
     margin: -62px 0px 58px 100px;
     padding: 5px 20px 0px 25px;
-
 }
 ul#Links{
     width: 100%;
     height: 10%;
 }
-
 h2{
     padding-left: 10px;
-    color: goldenrod;
+    color: #daa520;
 
 }
 a>i{
-    color:white;
+    color:#fff;
 }
 nav#Menu{
     display: inline;  
@@ -116,29 +121,29 @@ nav#Menu{
     width: 100%;
 }
 div.footer{
-    color: white;
+    color: #fff;
 }
 a:link {
-  color: white;
+  color: #fff;
 }
 
 a:visited {
-  color: white;
+  color: #fff;
 }
 
 a:hover {
-  color: gold;
+  color:  #ffd700;
 }
 
 a:active {
-  color: yellow;
+  color: #ffff00;
 }
 i:link {
-  color: white;
+  color:#fff;
 }
 
 i:visited {
-  color: white;
+  color:#fff;
 }
 
 i:hover {
@@ -146,96 +151,93 @@ i:hover {
 }
 
 i:active {
-  color: yellow;
+  color: #ffff00;
 }
 
 @media only screen and (max-width: 600px) {
 
-  /---------------header----------/
-.header{
-    line-height: 1.2;
-    text-decoration: none;
-    padding: 0px 0px 0px 40px;
-}
- /------------footer--------------------/
-
+    /---------------header----------/
+  .header{
+      line-height: 1.2;
+      text-decoration: none;
+      padding: 0px 0px 0px 40px;
+  }
+   /------------footer--------------------/
   footer{
-    text-align: center;
-    
- 
-}
- ul{
-  padding-left: 1px;
-  margin-bottom: 1px 
-}
-div.footer{
-  color:aliceblue
-}
-img {
-  float: center;
-  opacity: 0.80;
-   width: 100%;
-    padding: 0px 1px 0px 5px;
+      text-align: center;
+  }
+  ul{
+      padding-left: 1px;
+      margin-bottom: 1px;
+  }
+  div.footer{
+      color: #fff;
+  }
+  img {
+      float: center;
+      opacity: 0.80;
+      width: 100%;
+      padding: 0px 1px 0px 5px;
 
   }
 
-#gridContainer {
-    display: grid;
-    grid-template-columns: auto ;
-    grid-template-rows:  auto;
-    grid-template-areas:             
-                                             "menu "
-                                             "foto "
-                                             "footer  ";
-}
-/------------------------menu-------------------/
-.menuus>li {
-    float: right;
-    position: fixed;
-}
-.menuus>li>a {
-    display: inline;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    position: fixed;
-}
-.menuus>#links{
-    float: left;
-    color: white
-}
-a.MenuRechts{
-    float: right;
-    margin: 0px;
-    padding: 5px 37px 0px 10px;
-    list-style-type: none;
-    color: red
-}
-ul#Links{
-    width: 100%;
-    height: 20%;
-    list-style-type: none;
-}
+  #gridContainer {
+      display: grid;
+      grid-template-columns: auto ;
+      grid-template-rows:  auto;
+      grid-template-areas:   
+                          "menu "
+                          "foto "
+                          "footer  ";
+  }
+  /------------------------menu-------------------/
+  .menuus>li {
+      float: right;
+      position: fixed;
+  }
+  .menuus>li>a {
+      display: inline;
+      color: #fff;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      position: fixed;
+  }
+  .menuus>#links{
+      float: left;
+      color: #fff;
+  }
+  a.MenuRechts{
+      float: right;
+      margin: 0px;
+      padding: 5px 37px 0px 10px;
+      list-style-type: none;
+      color:  #ff0000;
+  }
+  ul#Links{
+      width: 100%;
+      height: 20%;
+      list-style-type: none;
+  }
 
-h2{
-    padding-left: 10px;
-    color: goldenrod;
-        list-style-type: none;
+  h2{
+      padding-left: 10px;
+      color: #daa520;
+      list-style-type: none;
 
-}
-a>i{
-    color:white
-        list-style-type: none;
+  }
+  a>i{
+      color: #fff;
+      list-style-type: none;
 
-}
-nav#Menu{
-    display: inline;  
-    list-style-type: none;
-    margin: 5px;
-    padding: 5px;
-    float: right;
-    text-decoration: none;
-    position: fixed;
-}
+  }
+  nav#Menu{
+      display: inline;  
+      list-style-type: none;
+      margin: 5px;
+      padding: 5px;
+      float: right;
+      text-decoration: none;
+      position: fixed;
+  }
 }

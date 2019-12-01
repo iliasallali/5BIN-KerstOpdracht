@@ -1,18 +1,18 @@
-   *{
+*{
     box-sizing: border-box;
     font-family:Arial, Helvetica, sans-serif;
     background-color: #000;
 }
 body{
      margin:2px ;
-  } 
+} 
 #gridContainer{
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
-    grid-template-areas: "menu"
-                         "gerechten"
-                        "footer";
+    grid-template-areas:  "menu"
+                          "gerechten"
+                          "footer";
     grid-gap: 16px;
 }
 /------------------------menu-------------------/
@@ -22,7 +22,7 @@ body{
 }
 .menuus>li>a {
     display: inline;
-    color: white;
+    color: #fff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -39,79 +39,71 @@ nav#Menu{
     width: 100%;
 }
 .menuus>#links{
-    color: white;
+    color: #fff;
 }
 div.MenuRechts{
   float: right;
 }
 a.MenuRechts{
-    color: goldenrod;
+    color:  #daa520;
     margin: -62px 0px 58px 100px;
     padding: 5px 20px 0px 25px;
 }
 ul#Links{
     width: 100%;
     height: 10%;
-      position: fixed
-
+    position: fixed
 }
-
 h2{
     padding-left: 10px;
-    color: goldenrod;
-
+    color:  #daa520;
 }
 a>i{
-    color:white;
+    color:#fff;
 }
 div.footer{
-    color: white;
+    color: #fff;
 }
 a:link {
-  color: white;
+    color: #fff;
 }
 
 a:visited {
-  color: white;
+    color: #fff;
 }
 
 a:hover {
-  color: gold;
+    color:  #ffd700;
 }
 
 a:active {
-  color: yellow;
+    color:  #ffff00;
 }
 i:link {
-  color: white;
+    color: #fff;
 }
 
 i:visited {
-  color: white;
+    color: #fff;
 }
 
 i:hover {
-  color:#cd8500;
+    color:#cd8500;
 }
 
 i:active {
-  color: yellow;
+    color:  #ffff00;
 }
-
-
-
-
 /-----------------------header---------------------/
-
 .header{
     line-height: 0.2;
     text-decoration: none;
 }
 ----------------------------gerechten---------/
 .gerechten{
-  grid-area: gerechten;
+    grid-area: gerechten;
 }
-img{
+#fotogerechten>img{
     float: right;
     width: 30%;
     padding: 0px 60px 26px 40px;
@@ -126,135 +118,131 @@ img{
    padding: 30px 9px 30px 30px;
 }
 .grijzeTekst{
-    color: grey;
+    color:  #808080;
 }
  div.GerechtenInfo{
     text-align:left;       
 }
 h4{
     text-align: left;
-    color: white
+    color: #fff;
 }
 p.grijzeTekst{
     text-align: left;
 }
 h3.ondertitel{
-  color: green;
+    color:#daa520;
 }
 h1 , h2 , h3 , h3,h4 , h5 , h6{
     font-family: "Times New Roman", Times, serif;
-
 }
 h3{
     letter-spacing: 2px;
-      font-weight:700;
+    font-weight:700;
 }
-
 /------------------------------footer-----------------/
-  .footer{
-    margin: 25px;
-    padding: 20px
-  }
-  footer{
-text-align: center
-}
- ul{
-  padding-left: 1px;
-  margin-bottom: 1px 
-}
-@media only screen and (max-width: 600px) {
-  /---------------header----------/
-.header{
-    line-height: 1.2;
-    text-decoration: none;
-    padding: 0px 0px 0px 40px;
-}
- /------------footer--------------------/
 .footer{
     margin: 25px;
-    padding: 20px
-  }
+    padding: 20px;
+}
 footer{
     text-align: center;
-    color: white
 }
 ul{
     padding-left: 1px;
-    margin-bottom: 1px 
+    margin-bottom: 1px;
 }
-footer>p{
-    color: white;
-}
-  
-/* --------------- tekst-----------*/
-.gerechten{
-    line-height: 1.7;
-    padding: 120px 0px 0px 0px;
-}
- div.GerechtenInfo{
-    text-align:center;
-}
-h4{
-    text-align: center;
-}
-p.grijzeTekst{
-    text-align: center;
-}
-img{
-    float: center;
-    width: 100%;
-    padding: 0px 20px 0px 50px
-}
-  /------------------------menu-------------------/
-.menuus>li {
-    float: right;
-    position: fixed;
-}
-.menuus>li>a{
-    display: inline;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-.menuus>#links{
-    float: left;
-    color: white
-}
-a.MenuRechts{
-    float: right;
-    color: red;
-    margin: 10px 0px 0px 0px;
-    padding: 5px 37px 0px 10px;
-}
-ul#Links{
-    width: 100%;
-    height: 20%;
-    list-style-type: none;
-}
+@media only screen and (max-width: 600px) {
+/---------------header----------/
+  .header{
+      line-height: 1.2;
+      text-decoration: none;
+      padding: 0px 0px 0px 40px;
+  }
+/------------footer--------------------/
+  .footer{
+      margin: 25px;
+      padding: 20px;
+  }
+  footer{
+      text-align: center;
+      color: #fff;
+  }
+  ul{
+      padding-left: 1px;
+      margin-bottom: 1px;
+  }
+  footer>p{
+      color: #fff;
+  }
+/--------------- tekst-----------/
+  .gerechten{
+      line-height: 1.7;
+      padding: 120px 0px 0px 0px;
+  }
+   div.GerechtenInfo{
+      text-align:center;
+  }
+  h4{
+      text-align: center;
+  }
+  p.grijzeTekst{
+      text-align: center;
+  }
+  img{
+      float: center;
+      width: 100%;
+      padding: 0px 20px 0px 50px;
+  }
+ /------------------------menu-------------------/
+  .menuus>li {
+      float: right;
+      position: fixed;
+  }
+  .menuus>li>a{
+      display: inline;
+      color: #fff;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+  .menuus>#links{
+      float: left;
+      color: #fff;
+  }
+  a.MenuRechts{
+      float: right;
+      color:  #ff0000;
+      margin: 10px 0px 0px 0px;
+      padding: 5px 37px 0px 10px;
+  }
+  ul#Links{
+      width: 100%;
+      height: 20%;
+      list-style-type: none;
+  }
 
-h2{
-    padding-left: 10px;
-    color: goldenrod;
-        list-style-type: none;
+  h2{
+      padding-left: 10px;
+      color:  #daa520;
+      list-style-type: none;
+  }
+  a>i{
+      color:#fff;
+      list-style-type: none;
 
-}
-a>i{
-    color:white
-        list-style-type: none;
-
-}
-nav#Menu{
-    display: inline;  
-    list-style-type: none;
-    margin: 5px;
-    padding: 5px;
-    float: right;
-    text-decoration: none;
-}
-ul#links{
-  position: fixed;
-  margin: 5px;
-  padding:5px;
-}
+  }
+  nav#Menu{
+      display: inline;  
+      list-style-type: none;
+      margin: 5px;
+      padding: 5px;
+      float: right;
+      text-decoration: none;
+  }
+  ul#links{
+      position: fixed;
+      margin: 5px;
+      padding:5px;
+  }
 }

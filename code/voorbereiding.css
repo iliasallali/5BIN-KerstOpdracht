@@ -58,6 +58,7 @@ img {
 }
 
 /------------------------menu-------------------/
+/------------------------menu-------------------/
 .menuus>li {
     float: right;
     position: fixed;
@@ -70,21 +71,16 @@ img {
     text-decoration: none;
     position: fixed;
 }
-li>a:hover:not(.active) {
-    background-color: black;
 
-}
-.menuus>#links{
-    float: left;
-    color: white
-}
 a.MenuRechts{
     float: right;
-    color: goldenrod;
-    margin: -80px 0px 58px 100px;
+    margin: -60px 0px 42px 100px;
     padding: 5px 20px 0px 25px;
-
 }
+
+
+
+
 ul#Links{
     width: 100%;
     height: 10%;
@@ -169,27 +165,25 @@ i:active {
 
 
   /----------------------------voorbereiding----------------/
-       img {
-    width: 100%;
-    margin: 100px 0px 0px 0px;
+.voorbereiding{
+    padding-right: 10px;
+    grid-area: voorbereiding;
+}
+img {
+    width: 40%;
+    padding-left: 10px;
+    float: left
 
 }
-      #tekst{
-          width: 100%;
-          text-align: justify;
-          text-justify: inter-word;
-
-      }
-      div#tekst{
-          color: red
-      }
-        .voorbereiding{
-          padding-right: 10px;
-          grid-area: voorbereiding;
-          margin: 100px 0px 0px 0px;
- 
-
-      }
+#tekst{
+    width: 45%;
+    float: right;
+    text-align: justify;
+    text-justify: inter-word;
+}
+h3{
+  color: green
+}
    /------------footer--------------------/
 .footer{
     margin: 25px;

@@ -141,17 +141,16 @@ p.grijzeTekst{
 }
 
 /------------------------------footer-----------------/
-.footer {
-    grid-area: footer;
-    width: 33%;
-    display: inline-block;
+  .footer{
+    margin: 25px;
+    padding: 20px
+  }
+  footer{
+text-align: center
 }
-.footer>img{
-    width: 10%;
-    margin: 1px 1px 1px 1px;
-}
-div.footer>a ,p , strong ,h3{
-    color:white;
+ ul{
+  padding-left: 1px;
+  margin-bottom: 1px 
 }
 @media only screen and (max-width: 600px) {
   /---------------header----------/

@@ -14,18 +14,20 @@ body{
     grid-template-areas:   
                                             "menu menu"
                                              "voorbereiding voorbereiding"
-                                             "contact  contact";
+                                             "footer  footer";
 }
 /-------------------header---------------------/
   .header{
     line-height: 0.2;
     text-decoration: none;
 }
-b{
+.header>b{
   color: gold;
 }
 i{
     color: white;
+    margin: 10px
+
 }
 
 /----------------------------voorbereiding----------------/

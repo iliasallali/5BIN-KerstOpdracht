@@ -174,9 +174,9 @@ i:active {
             padding: 120px;
             }
        img {
-           width: 100%;
-           padding-left: 10px;
-           float: left;
+           width: 100px;
+           padding-top: 120px;
+           float: center;
        }
        #tekst{
           text-align: justify;

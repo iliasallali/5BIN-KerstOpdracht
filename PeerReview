@@ -1,0 +1,49 @@
+@media only screen and (max-width: 600px) {
+/---------------header----------/
+  .header{
+      line-height: 1.2;
+      text-decoration: none;
+      padding: 0px 0px 0px 40px;
+  }
+/------------footer--------------------/
+  .footer{
+
+Wat is het nut om je grid model niet hieronder toe te passen? Je css is zo geschreven dat het grid-model op ongeacht 
+welk apparaat wordt toegepast.
+
+
+<div>Plantin en Moretuslei 154, 2018 Antwerpen</div>
+
+Is een p element (of h1 etc.) niet meer van toepassing?
+
+<div class="footer">
+            <ul>
+               <h3>
+                 <i class="material-icons">
+                    public
+                 </i>
+                    sociale media:
+                </h3>
+                <i class="flaticon-airplane49"></i>
+                  <li><a href="https://www.tripadvisor.be/Restaurant_Review-g188636-d942240-Reviews-Saffraan-Antwerp_Antwerp_Province.html"><i class="fab fa-tripadvisor"></i></a></li>
+                  <li><a href="https://nl.yelp.be/biz/zafraan-bistro-antwerpen"><i class="fab fa-yelp"></i></a></li>
+                  <li><a href="https://www.facebook.com/pages/category/Family-Style-Restaurant/Zafraan-Bistro-1421260014761031/"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjNt_frxt_lAhUMa1AKHfMcAEIQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D6gcvAh5-UDM&psig=AOvVaw1WD1oWoDH3sF5d2rHuwelX&ust=1573472170965290">promotievideo</a></li>
+              </ul>
+            </div>
+            
+ Waarom geen gebruik van een section?
+ 
+ <div class="menu">
+              <div class="menuus">
+               <ul id="links">  
+ Nav element?
+ 
+ 
+           </footer>
+                </div>
+        </body>
+        </html>
+    
+Indentatie "</html>"
+  

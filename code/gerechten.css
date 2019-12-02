@@ -194,6 +194,21 @@ ul{
       width: 100%;
       padding: 0px 20px 0px 50px;
   }
+      div#gerechtentnawies{
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    float: center;
+  }
+ #gerechtentnawies{
+   padding: 0px 0px 0px 0px;
+   width: fit-content;
+   line-height: initial
+}
+#fotogerechten>img{
+    float: center;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+} 
  /------------------------menu-------------------/
   .menuus>li {
       float: right;
